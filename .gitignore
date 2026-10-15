@@ -1,16 +1,14 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Python virtual environment
+.venv/
 
-# Virtual environments
-.venv
-
-# Secrets
-.env
+# uv package manager cache
+.uv-cache/
 
 # Test cache
 .pytest_cache/
+
+# Local environment
+.env
+
+# Python egg-info
+*.egg-info/
